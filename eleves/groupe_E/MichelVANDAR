@@ -1,0 +1,66 @@
+Exercice 1)
+
+	2. Un repertoire .git à été créels
+	4. message "Sur la branche master
+
+Aucun commit
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	fichier.txt
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+" 
+
+C'est parce qu'on n'a pas envoyer de fichier comitter.
+
+	5. Le status a changé :  "Sur la branche master
+
+Aucun commit
+
+Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : fichier.txt
+	
+	7. Sur la branche master
+rien à valider, la copie de travail est propre
+
+	8. Author: Michel-EI <michel.vandar@etu.sorbonne-universite.fr>
+Date:   Mon Nov 20 17:20:14 2023 +0100
+
+    Un superMessage
+
+diff --git a/fichier.txt b/fichier.txt
+new file mode 100644
+index 0000000..e69de29
+
+
+	9. diff --git a/fichier.txt b/fichier.txt
+index e69de29..38d91c2 100644
+--- a/fichier.txt
++++ b/fichier.txt
+@@ -0,0 +1 @@
++Message modifié!
+
+Cela nous met que le fichier a été modifié, et nous affiche la version la plus récente.
+
+	10.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
+	
+	11. Les fichiers qui ont été créer localement sont maintenant sur le répertoire de mon serveur github.
+	
+	12. Le message a bien été mis à jour avec le message "Un message"
+
+
+EXERCICE 2)
+
+	2. Un repertoire OPI23-EI3 a été créer
+	3.Votre branche est à jour avec 'origin/main'.
+
+rien à valider, la copie de travail est propre
+
+	4.
+
+	
+
+
+
