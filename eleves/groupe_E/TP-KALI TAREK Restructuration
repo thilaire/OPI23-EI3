@@ -1,0 +1,179 @@
+
+	Exercice 1 : 
+
+Qst1) 
+On rentre les commandes du TP.
+
+pltguest@pc4101:~$ git config --global user.name tarekkali
+pltguest@pc4101:~$ git config --global core.editor emacs
+pltguest@pc4101:~$ git config --global color.ui auto
+pltguest@pc4101:~$ git config --global alias.lola ’log --graph --decorate --oneline --all’
+usage : git config [<options>]
+
+Emplacement du fichier de configuration
+    --global              utiliser les fichier de configuration global
+    --system              utiliser le fichier de configuration du système
+    --local               utiliser le fichier de configuration du dépôt
+    --worktree            utiliser un fichier de configuration par arbre de travail
+    -f, --file <fichier>  utiliser le fichier de configuration spécifié
+    --blob <blob-id>      lire la configuration depuis l'objet blob fourni
+
+Action
+    --get                 obtenir la valeur : nom [regex-de-valeur]
+    --get-all             obtenir toutes les valeurs : clé [regex-de-valeur]
+    --get-regexp          obtenir les valeur pour la regexp : regex-de-nom [regex-de-valeur]
+    --get-urlmatch        obtenir la valeur spécifique pour l'URL : section[.var] URL
+    --replace-all         remplacer toutes les variables correspondant : nom valeur [regex-de-valeur]
+    --add                 ajouter une nouvelle variable : nom valeur
+    --unset               supprimer une variable : nom [regex-de-valeur]
+    --unset-all           supprimer toutes les correspondances nom [regex-de-valeur]
+    --rename-section      renommer une section : ancien-nom nouveau-nom
+    --remove-section      supprimer une section : nom
+    -l, --list            afficher tout
+    -e, --edit            ouvrir un éditeur
+    --get-color           trouver la couleur configurée : slot [par défaut]
+    --get-colorbool       trouver le réglage de la couleur : slot [stdout-est-tty]
+
+Type
+    -t, --type <>         ce type est assigné à la valeur
+    --bool                la valeur est "true" (vrai) ou "false" (faux)
+    --int                 la valeur est un nombre décimal
+    --bool-or-int         la valeur est --bool ou --int
+    --path                la valeur est un chemin (vers un fichier ou un répertoire)
+    --expiry-date         la valeur est une date d'expiration
+
+Autre
+    -z, --null            terminer les valeurs avec un caractère NUL
+    --name-only           n'afficher que les noms de variable
+    --includes            respecter les directives d'inclusion lors de la recherche
+    --show-origin         afficher l'origine de la configuration (fichier, entrée standard, blob, ligne de commande)
+    --default <valeur>    avec --get, utiliser le valeur par défaut quand l'entrée n'existe pas
+
+pltguest@pc4101:~$ git config --global alias.lop ’log --pretty=format:"%h - %an, %ar : %s"’
+
+
+Qst2) 
+
+pltguest@pc4101:~$ cd depotgit/
+pltguest@pc4101:~/depotgit$ git init
+Dépôt Git vide initialisé dans /home/pltguest/depotgit/.git/
+
+Le répertoire crée est le ".git"
+
+Qst3)
+
+pltguest@pc4101:~/depotgit$ touch Fichierexo1
+
+
+Qst4)
+Sur la branche master
+
+Aucun commit
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	Fichierexo1
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+Il n'y a pas encore de fichier ajouté que l'on peut suivre, il faut donc en ajouté un.
+
+Qst5) 
+pltguest@pc4101:~/depotgit$ git add Fichierexo1
+pltguest@pc4101:~/depotgit$ git status
+Sur la branche master
+
+Aucun commit
+
+Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : Fichierexo1
+
+
+Qst6)
+pltguest@pc4101:~/depotgit$ git commit -m"Un superMessage"
+[master (commit racine) 706e72f] Un superMessage
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Fichierexo1
+
+
+Qst7) 
+
+pltguest@pc4101:~/depotgit$ git status
+Sur la branche master
+rien à valider, la copie de travail est propre
+
+Qst8) 
+
+pltguest@pc4101:~/depotgit$ git log -p
+commit 706e72fb9a71a90fe58ad70920e8fc297df5ef37 (HEAD -> master)
+Author: tarekkali <Tarek.kali@etu.sorbonne-universite.fr>
+Date:   Mon Nov 20 17:01:53 2023 +0100
+
+    Un superMessage
+
+diff --git a/Fichierexo1 b/Fichierexo1
+new file mode 100644
+index 0000000..e69de29
+
+Cette commande permet d'afficher ( l'historique ) les changements dans le fichier en y affichant l'auteur, la date, l'heure et le message ajouté au changement du fichier.
+
+
+Qst9) 
+pltguest@pc4101:~/depotgit$ git diff
+diff --git a/Fichierexo1 b/Fichierexo1
+index e69de29..5beafcd 100644
+--- a/Fichierexo1
++++ b/Fichierexo1
+@@ -0,0 +1 @@
++BOnjour
+
+On nous affiche les changements du fichier.
+
+Qst10)
+
+pltguest@pc4101:~/depotgit$ git push -u origin main
+Username for 'https://github.com': tarekkali
+Password for 'https://tarekkali@github.com': 
+Énumération des objets: 12, fait.
+Décompte des objets: 100% (12/12), fait.
+Compression par delta en utilisant jusqu'à 20 fils d'exécution
+Compression des objets: 100% (7/7), fait.
+Écriture des objets: 100% (12/12), 1020 octets | 510.00 Kio/s, fait.
+Total 12 (delta 0), réutilisés 0 (delta 0)
+To https://github.com/Tarekkali/TP1.git
+ * [new branch]      main -> main
+La branche 'main' est paramétrée pour suivre la branche distante 'main' depuis 'origin'.
+
+Après avoir générer un tokken désormais on retrouve bien notre répertoire sur Github
+
+Qst11) On observe sur le répertoire Github qu'il y a le fichier que l'on a crée et modifié auparavant ( "Fichierexo1 " pour moi ) et un fichier README.md .
+
+
+Qst12)
+pltguest@pc4101:~/depotgit$ git add Fichierexo1 
+pltguest@pc4101:~/depotgit$ git commit -m"Un message"
+[main 53de948] Un message
+ 1 file changed, 3 insertions(+)
+pltguest@pc4101:~/depotgit$ git push
+Username for 'https://github.com': tarekkali
+Password for 'https://tarekkali@github.com': 
+Énumération des objets: 5, fait.
+Décompte des objets: 100% (5/5), fait.
+Compression par delta en utilisant jusqu'à 20 fils d'exécution
+Compression des objets: 100% (2/2), fait.
+Écriture des objets: 100% (3/3), 310 octets | 310.00 Kio/s, fait.
+Total 3 (delta 0), réutilisés 0 (delta 0)
+To https://github.com/Tarekkali/TP1.git
+   9b36015..53de948  main -> main
+   
+   
+   On observe bien les modifications directement sur GitHub.
+   
+
+   
+	Exercice 2:
+
+   
+
+
