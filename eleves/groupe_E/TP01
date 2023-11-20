@@ -1,0 +1,33 @@
+Exercice 01  : 
+2)git init a cree un repartoire .git
+3) creation de fichier 
+4) git status affiche le message suivant : aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+5)git add on a ajoutée le fichier TP.text le statut est aucun commit mais les modification seront prends en compte.
+6)  1 file changed, 0 insertions(+), 0 deletions(-)
+    create mode 100644 TP1/TP01
+    
+    
+7) status : Sur la branche master
+rien à valider, la copie de travail est propre
+
+
+8)git log -p : on aura l'affichage suivant : le nome qui a changer le fichier et la date.
+Author: OUMERTAmine <amine.oumert@etu.sorbonne-universite.fr>
+Date:   Mon Nov 20 17:29:19 2023 +0100
+
+    QUSTION git commit -m
+
+diff --git a/TP1/TP01 b/TP1/TP01
+new file mode 100644
+index 0000000..e69de29
+
+9)git diff : il afiche tous les modification qu'on a apporté sur le fichier.
+10)echo "# TP01" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/OUMERTAmine/TP01.git
+  git push -u origin main
+  
+ 11) affichage des repartoir crées
