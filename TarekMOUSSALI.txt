@@ -1,0 +1,28 @@
+ Exercice 1
+ 
+ 2) Le repertoire .git a été créé.
+ 
+ 4) Après la création du fichier, la commande nous indique que qu'il n'y a aucun commit et que le fichier créé ( dans mon cas 'test' ) n'est pas suivi.
+ 
+ 5) Le fichier est maintenant suivi, ses modifications seront validées.
+ 
+ 7) "Rien à valider, la copie de travail est propre" Le fichier est actualisé.
+ 
+ 8) Cela enregistre le document avec la date l'heure et l'auteur, de plus un commentaire est ajouté.
+ 
+ 9) La commande nous montre ce qui a été rajouté dans le fichier.
+ 
+ 
+ token: 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
+  
+ 11) Le first commit a été fait, on y trouve README et notre fichier test qu'on a créé précédemment.
+ 
+ 
+ Exercice 2
+
+2) Le repertoire OPI23-EI a été créé (ou cloner).
+
+ 3) Elle retourne : Rien à valider, la copie de travail est propre.
+ 
+6) Je n'ai pas réussi a le push.
+ 
