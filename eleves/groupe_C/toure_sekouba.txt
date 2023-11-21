@@ -6,4 +6,6 @@
 exo2: le repertoire cree est : OPI23-EI3
 status retourne : OPI23-EI3 en rouge , ce qui veut dire qu'il n'a pas encore ete committe et ajoute
 6: lors de push , mon fichier ou mes fichiers crees sont directement mis en ligne sur le repository dans lequel je me trouve.
-
+11: Quand je modifie dans mon pc le fichier d'un camarade et ensuite
+je fais le commit et push, cela se repercutera immediatement sur le 
+fichier de ce dernier sur le serveur github
