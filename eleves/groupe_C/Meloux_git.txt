@@ -1,0 +1,54 @@
+Exercice 1 : 
+
+Le répertoire crée est un ".git" il faut utiliser ls -a 
+
+Le fichier est dit "non suivi" cela signifie qu'il n'a pas été enregistr sur git 
+
+Le fichier est maintenant validé (donc enregistré) 
+
+Le status est le suivant : Sur la branche master rien à valider, la copie de travail est propre
+
+Cette commande permet de nous montrer les log liée au commit on y retrouve : 
+- L'identifiant du commit 
+- l'auteur 
+- la date du commit 
+- le message entrée 
+
+La commande permet de voir le contenu du fichier avant et aprés la/les modifications 
+
+(je récupère un reposity non vide) Je supose que nous retrouvons notre branche main vide 
+
+
+Token : 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 
+
+
+Le commit s'est bien éffectué capture joint dans le dossier 
+
+Le répertoire OPI23-EI3 
+
+
+Exercice 2 : 
+
+Le Clone s'est bien éffectué cela à copîer tout le repository dans mon dossier 
+
+J'arriver bien à déposer mon fichier dans le repository mais ce dernier se situe dans la branche master. 
+Aprés 1h d'essai à la maison je n'arrive toujours pas à le déplacer dans main/eleves/groupe_C
+
+
+
+Exerecice 3 : 
+
+1) le caractère qui permet de lancer un programme en arrière plan et : &
+2) le répertoire racine est : / 
+3) ce n'est pas proposé mais pour retourner au repertoire racine il faut utiliser cd / 
+4) cette commande permettra d'afficher tous les fichiers et repertoirtes de l'utilisateur 
+5) cp ../TP1/ex2.c ../../Images/IMG216.jpg .	(le point à la fin signifie copie dans le répertoire courant) 
+6) La bonne réponse est : Ajouter le chemin du répertoire qui contient a.out dans la variable PATH.
+7) La commande echo ''OPI c’est utile..'' | wc -l affichera 1 car il n'y a qu'une seule ligne
+8) la meilleure façon de ne pas afficher les erreurs d'une commande est de rediriger les errreur vers un fichier ou de les supprimer 
+9) La commande ps -ef | grep -c evince compte combien de processus en cours d'exécution ont le mot "evince" dans leurs informations.
+10) chmod g+r,g+w file1
+11) Cette commande permet d'afficher les "non" présent dans le champ 5 soit les non-inscrits. 
+
+
+
