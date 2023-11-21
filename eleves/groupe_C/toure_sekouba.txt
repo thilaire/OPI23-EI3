@@ -1,0 +1,11 @@
+2: les repertoires crees: . , .. et .git 
+6: il y'a eu un changement (un ajout du fichier cree)
+8: la commande git log -p repertorie tous les changements effectues sur notre fichier avec les differentes dates et heures de modification
+9: la commande git diff permet de voir les differences entre les modifications non validees dans notre repertoire de travail et la derniere version enregistree dans git, elle affiche les lignes modifiees, ajoutees  ou supprimees dans les fichiers.
+11 : je vois des liens vers mon repertoire cree et des codes pour creer mon repertoire en ligne de commande
+exo2: le repertoire cree est : OPI23-EI3
+status retourne : OPI23-EI3 en rouge , ce qui veut dire qu'il n'a pas encore ete committe et ajoute
+6: lors de push , mon fichier ou mes fichiers crees sont directement mis en ligne sur le repository dans lequel je me trouve.
+11: Quand je modifie dans mon pc le fichier d'un camarade et ensuite
+je fais le commit et push, cela se repercutera immediatement sur le 
+fichier de ce dernier sur le serveur github
