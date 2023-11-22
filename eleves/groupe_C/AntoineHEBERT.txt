@@ -1,0 +1,57 @@
+/**************************************************/ Exercice 1 /**************************************************/
+1) Configuration Git en nous identifiant
+2) Git init sert a créé un repertoire de depot git : .git
+3) créé un fichier : nano votrefichier
+4) git status : sert à afficher l'etat du repertoire ainsi que les changements
+5) git add votrefichier : sert à ajouter le fichier pour qu'il soit modifiable
+6) git commit -m"Un superMessage" : sert à créé un message sur un commit
+7) le statue du fichier est en modifiable ( on peut dire indexer )
+8) git log -p : donne l'adresse du commit, l'auteur, la date, et le message
+commit b00734dbd43ff805f1e821aca3a7844e6217bad3 (HEAD -> master)
+Author: HebertAntoine <hebertantoine9889@gmail.com>
+Date: Mon Nov 20 14:47:17 2023 +0100
+ Un super message
+diff --git a/votrefichier b/votrefichier
+new file mode 100644
+index 0000000..0ef6b63
+--- /dev/null
++++ b/votrefichier
+@@ -0,0 +1 @@
++salut !
+9) git diff : connetre la derniere modification du fichier
+diff --git a/votrefichier b/votrefichier
+index 0ef6b63..e70b142 100644
+--- a/votrefichier
++++ b/votrefichier
+@@ -1 +1,2 @@
+ salut !
++Coucou !
+10) J'ai cree TP1
+11)
+12) j'ai donc reussi à deplacer le fichier dans mon github
+
+/**************************************************/ Exercice 2 /**************************************************/
+Question 1) 1 répertoire appelé OPI23-EI3 à était créé avec à l’intérieur un fichier eleves et
+RÉADMETS.md et à l’intérieur de eleves il y a les groupe de TP de « A » à « F ».
+Question 2) git status : renvoie les valeurs que je peux push
+Question 11) Cela ne fonctionne pas car le fichier du voisin a été modifié
+/**************************************************/ Exercice 3 /**************************************************/
+Question 1) il faut mettre le caractériel & en fin de commande
+Question 2) le répertoire à la racine sous GNU/Linux est ‘/‘
+Question 3) « cd.. » permet de retourner à la racine du compte
+Question 4)
+TP1
+TP2
+TP3
+Question 5) cp ../TP1/ex2.c ../..Images/IMG216.jpg .
+Question 6) Ajouter le chemin du répertoire qui contient a.out dans la variable PATH.
+Question 7) la commande : echo "OPI c'est utile" | wc -l renvoie 1 en sortie
+Question 8) la meilleure façon est de les redirigé vers un fichier.
+Question 9) la commande renvoie le nombre de processus associé a evince
+Question 10) chmod g+r,g+w file1
+Question 11)
+3224931 M. Thomas AUBERTIER Non
+3284840 M. Hélène FAUCHEU Non
+4035745 Mme Sara GRISSIA Non
+4210027 Mme Chadha HASSINE Non
+3673118 M. Francis JEGOU Non
