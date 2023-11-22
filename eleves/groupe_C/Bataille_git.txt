@@ -1,0 +1,217 @@
+///////////////////////////////////////////////////////////////// Exercice 1 ////////////////////////////////////////////////////////////////////////////////
+
+On crée un compte sur Github.
+
+1) on configure Git en donnant des informations nous identifiant:
+
+	git config --global user.name "pierrebataille99"
+	git config --global user.email "pierre.bataille99@gmail.com"
+	git config --global core.editor emacs
+	git config --global color.ui auto
+	git config --global alias.lola 'log --graph --decorate --oneline --all'
+	git config --global alias.lop 'log --pretty=format:"%h - %an, %ar : %s"'
+	
+	
+2) ON crée un répertoire de dépot git dans TP1, puis no tape la commande suivante : git init
+	des fichiers ont été créés.
+	
+3) On crée un fichier dans ce répertoire: nano votrefichier.txt
+4)	Puis on tape la commande git status afin de voir le statut du fichier:
+	Le message suivant est envoyé:
+	
+	Sur la branche master
+	Aucun commit
+
+	Fichiers non suivis:
+  	(utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	votrefichier
+
+	On voit bien notre fichier qui apparait, comme fichier non suivi.
+	
+	
+	
+5) on tape la commande  git add votrefichier.txt     (le fichier qu'on a créé)
+	Puis on refait un git status.
+	Le résultat est que le fichier est suivi
+	
+	
+	
+6) On envoie un message via git commit -m"message" Le message renvoyé est le suivant:
+	[master 0149979] helloooo
+ 	1 file changed, 2 insertions(+)
+	 create mode 100644 votrefichier.txt
+	 
+	 
+
+7) Puis on refait un git status:
+	Sur la branche master
+	odifications qui ne seront pas validées :
+  	(utilisez "git add/rm <fichier>..." pour mettre à jour ce qui sera validé)
+ 	 (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	supprimé :        votrefichier
+
+	aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+	
+	
+	
+8) Puis on execute la commande git log -p: Le message renvoyé est le suivant:
+	commit 818274e8dfd46db08238ff540674a8c8deb912f9
+	Author: pierrebataille99 <pierre.bataille99@gmail.com>
+	Date:   Mon Nov 20 14:49:31 2023 +0100
+
+   	 helloooo
+
+	diff --git a/votrefichier b/votrefichier
+	new file mode 100644
+	index 0000000..9a80a22
+	--- /dev/null
+	+++ b/votrefichier
+	@@ -0,0 +1,2 @@
+	+hello
+	+
+	
+	Cette commande donne les informations surle commit (identifiant, message...)
+	
+	
+9) on fait un git diff:
+	diff --git a/votrefichier b/votrefichier
+	deleted file mode 100644
+	index 9a80a22..0000000
+	--- a/votrefichier
+	+++ /dev/null
+	@@ -1,2 +0,0 @@
+	-hello
+
+
+
+	Le git diff affiche la dernière modification du commit
+	
+	
+	
+10) On crée un nouveau depository sur notre compte github
+
+11) Il n'y a rien dans le depository
+
+
+12) On modifie le fichier votrefichier.txt en ajoutant du texte
+	puis on tape la commande: git add votrefichier.txt 
+	et on commite : git commit -m"bonjour"
+	Cela fonctionne:
+	
+	[master 7f6d63f] bonjour
+ 	1 file changed, 2 insertions(+), 1 deletion(-)
+ 	
+	
+	Puis on va sur Github afin de générer un token, ce qui nous permettre d'importer par la suite votrefichi.txt sur notre github
+	On génère un token sur github
+	
+	Et on tape la commande: git push --set-upstream origin master
+	Puis on rentre notre user: pierrebataille99 et le mdp.
+	
+	Puis cela fonctionne, votrefichier.txt a été importé sur notre gitHub
+	
+	
+	
+///////////////////////////////////////////////////////////////// Exercice 2 ////////////////////////////////////////////////////////////////////////////////
+	
+	
+1) on crée un autre répertoire dans TP1: on se place dans TP1 et on execute mkdir exo2
+
+
+
+
+2)	Puis on récupère l'url du repository  OPI23-EI3: https://github.com/thilaire/OPI23-EI3.git
+	Et on tape la commande :
+	git clone https://github.com/thilaire/OPI23-EI3.git
+	
+	Cela fonctionne, les répertoires sont créés:
+	
+	
+	Clonage dans 'OPI23-EI3'...
+	remote: Enumerating objects: 100, done.
+	remote: Counting objects: 100% (100/100), done.
+	remote: Compressing objects: 100% (67/67), done.
+	remote: Total 100 (delta 43), reused 76 (delta 21), pack-reused 0
+	Réception d'objets: 100% (100/100), 8.88 Kio | 4.44 Mio/s, fait.
+	Résolution des deltas: 100% (43/43), fait.
+	
+	Un répertoire OPI23-EI3 est créé dans exo2 avec plusieurs fichiers et des sous-répertoires
+	
+	
+3)  On retourne dans le dépot .git qui permet de faire un git status:
+	on retourne dans le répertoire TP1/git, et on fait la commande: git status:
+	
+	
+	Sur la branche master
+	Votre branche est à jour avec 'origin/master'.
+	Modifications qui ne seront pas validées :
+ 	 (utilisez "git add/rm <fichier>..." pour mettre à jour ce qui sera validé)
+ 	 (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	supprimé :        votrefichier
+	modifié :         votrefichier.txt
+	aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+	
+	Donc aucune n'a pas encore été faite
+	
+	
+	
+	
+4) On crée le fichier: nano pierrebataille99.txt
+
+
+
+5) On essaye d'ajouter le fichier sur le git, avec add, commit et push, mais cela ne fonctionne pas:
+	fatal: Échec d'authentification pour 'https://github.com/pierrebataille99/TP1_OPI_PierreBATAILLE.git/'
+	
+	
+6) Cela ne fonctionne pas, j'ai donc envoyé un mail aux prof
+
+
+7) j'utilise la commande git pull, mais un erreur d'authentification apparait.
+
+8) J'ai essayé de nouveau de pusher, cela ne fonctionne toujours pas
+
+
+
+
+
+///////////////////////////////////////////////////////////////// Exercice 3 ////////////////////////////////////////////////////////////////////////////////
+
+1) c'est le caractère &
+
+2) Le répertoire est noté ~
+
+3) C'est la commande cd
+
+4) La commande ls affiche TP1 TP2 TP3
+
+5) C'est la commande cp Home/Images/IMG216.jpg Home/Documents/TP/TP2
+	et cp Home/Documents/TP/TP1/ex2.c Home/Documents/TP/TP2
+	
+6) la réponse est la 1: il faut ajouter le chemin du repertoire qui contient a.aout dans la variable PATH
+
+
+7) le résultat de echo "OPI c'est utile" | wc -l     renvoie 1 en sortie
+
+
+8) 
+
+9) la requete renvoie 1
+
+10) la commande sera la reponse 1: chmod g+r, g+w filel
+
+
+
+
+
+
+	
+	
+
+
+	
+	
+
+
+
+
