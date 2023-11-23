@@ -1,0 +1,34 @@
+2: les repertoires crees: . , .. et .git 
+6: il y'a eu un changement (un ajout du fichier cree)
+8: la commande git log -p repertorie tous les changements effectues sur notre fichier avec les differentes dates et heures de modification
+9: la commande git diff permet de voir les differences entre les modifications non validees dans notre repertoire de travail et la derniere version enregistree dans git, elle affiche les lignes modifiees, ajoutees  ou supprimees dans les fichiers.
+11 : je vois des liens vers mon repertoire cree et des codes pour creer mon repertoire en ligne de commande
+
+exo2: le repertoire cree est : OPI23-EI3
+status retourne : OPI23-EI3 en rouge , ce qui veut dire qu'il n'a pas encore ete committe et ajoute
+6: lors de push , mon fichier ou mes fichiers crees sont directement mis en ligne sur le repository dans lequel je me trouve.
+11: Quand je modifie dans mon pc le fichier d'un camarade et ensuite je fais le commit et push, cela se repercutera immediatement sur le fichier de ce dernier sur le serveur github
+
+
+
+Exercice 3:
+
+q1: &
+q2: le repertoire racine sous linux est : /
+q3: les commandes cd  et cd ~ permettent de retourner a la racine de son compte
+q4: la commande ls ~/ * afiichera TP1 et son contenu (ex1.c ex2.c), TP2, TP3, readme.txt, Documents, Bureau et Images
+q5: cp ../TP1/ex2.cc ~/Images/image.jpg .
+q6: ajouter le chemin du repertoire qui contient a.out dans la variable PATH
+q7: le resultat est 1
+q8: nous pouvons faire une redirection vers un fichier qu'on a cree de la maniere suivante: commande > monFichierCree 2>&1 (pour ne pas que l'erreur s'affiche sur mon terminale), l'erreur sera dans le fichier monFichierCree
+q9: la commande ps -ef | grep -c evince:  renvoie le nombre de ligne comportant le mot "evince" dans la liste de processus detaillee renvoyee par ps -ef
+q10: chmod g+r , g+w file1 
+q11 : on aura comme resultat toutes les lignes dans lesquelles le champs incrit = non, c'est a dire :
+3224931 M. Thomas AUBERTIER Non
+4035745 Mme Sara GRISSIA Non
+4210027 Mme Chadha HASSINE Non
+3673118 M. Francis JEGOU Non
+
+
+
+
