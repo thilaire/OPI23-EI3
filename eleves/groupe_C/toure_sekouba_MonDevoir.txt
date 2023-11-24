@@ -29,6 +29,8 @@ q11 : on aura comme resultat toutes les lignes dans lesquelles le champs incrit 
 4210027 Mme Chadha HASSINE Non
 3673118 M. Francis JEGOU Non
 
+fin de l'exercice 3
+
 
 
 
