@@ -1,4 +1,4 @@
-1) les fichiers créer apres un git init :  .  ..  et  .git 
+1) les fichiers créé apres un git init :  .  ..  et  .git 
 
 7) stutat du repertoire : working tree 
 
