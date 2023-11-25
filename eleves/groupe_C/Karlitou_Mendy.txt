@@ -1,0 +1,35 @@
+1) les fichiers créer apres un git init :  .  ..  et  .git 
+
+7) stutat du repertoire : working tree 
+
+6) affiche un message 
+
+8) Il permet de lister les commits, de les filtrer et de rechercher des modifications précise
+
+9)compare les modifications dans les fichiers, les branches et les commits.
+
+10) Commit fait !
+
+Exercice 2
+
+2) Répertoire cloné avec succès 
+3)status retourne : OPI23-EI3 en rouge , ce qui veut dire qu'il n'a pas encore ete committe et ajoute
+6) le fichier est mis e ligne dans le repositorie cloné 
+11) après avoir modifier le fichier de mon camarade suivi d'un push, le fichier est modifier et un git pull me montre que le fichier à été modifié.
+
+ Exercice 3
+
+Q1: Nom du programme + &
+Q2: /
+Q3: les commande cd et cd ~ 
+Q4:ls ~/* affichera readme.txt Document  Bureau et Images
+Q5: cp ../TP1/ex2.c ../..Images/IMG216.jpg
+Q7: ajouter le chemin du repertoire qui contient a.out dans la variable PATH
+Q8: meilleur facon est d'utiliser >
+Q9: la commande renvoie le nombre de processus associé à evince
+Q10: chmod g+r,g+w file1
+Q11: 
+	3224931 M. Thomas AUBERTIER Non
+	4035745 Mme Sara GRISSIA Non
+	4210027 Mme Chadha HASSINE Non
+	3673118 M. Francis JEGOU Non
