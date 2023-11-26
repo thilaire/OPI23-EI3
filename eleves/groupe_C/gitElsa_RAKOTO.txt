@@ -1,0 +1,77 @@
+Exercice 1 
+
+1) On a trois répertoires ./ ../ et .git
+
+4) Après avoir tapé git status : 
+rien n'a été modifié, il n'y a rien a faire
+
+5) Après avoir fait la commande "git add git.txt", cela permet de mettre à jour les modifications. add prépare les modifications dans le fichier qui seront ensuite commitées. 
+
+7)"git commit -m "Un super message".
+ Commit est une validation et un enregistrement des changements effectués.
+
+8) En tapant "git log -p" permet d'afficher toutes les modifications du fichier avec les heures et dates de modification  
+
+9) git diff permet de voir la différence entre le fichier actuel et sa dernière modification 
+
+10) On voit les lignes de commandes qui permettent de créer un repository via le terminal.
+On peut importer du code d'autres repository ou push un repository existant via le terminal 
+
+
+Exercice 2 
+
+2) Après avoir clôné : https://github.com/Polytech-Sorbonne-OPI-2023/intro-to-git-Elsarkt.git ,les répertoires .git et .github ont été crées.
+
+3) git status indique qu'il n'y a rien à valider, la copie de travail est propre.
+
+4) Après le push, le fichier crée est consultable sur github
+
+
+Exercice 3
+ 
+1) Pour lancer un caractère en arrière plan : &
+
+2) Le réperoire racine sous linux est : /
+
+3) Les commandes pour 
+cd , cd ~ , cd /$HOME
+
+4)la commande ls ~/* montre l'arborescence de chacun des répertoires de user, à savoir chaque branche et tout ce qu'elles contiennent
+
+5) La commande permettant de copier les fichiers : 
+cp ~/Documents/TP/TP1/ex2.c ~/Images/IMG216.jpg ~/Documents/TP/TP2
+
+6) Il faut ajouter le chemin du repertoire qui contient a.out dans la variable Path
+
+7) 1 est affiché. 1 correspond au nombre de ligne du message. 
+
+8) On écrit les messages d'erreur dans un fichier qui n'existe pas (fichier null) : &>> /dev/null
+
+9) On récupère le nombre de lignes qui contiennent le mot "evince" dans la liste des processus 
+
+10) Il faut utiliser la commande : chmod 660 file1
+
+11)La commande affiche une liste de deux colonnes :
+la première contient les numéros étudiants des élèves non inscrits 
+la deuxième contient "non". 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
