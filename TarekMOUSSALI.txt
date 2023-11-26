@@ -22,7 +22,8 @@
 
 2) Le repertoire OPI23-EI a été créé (ou cloner).
 
- 3) Elle retourne : Rien à valider, la copie de travail est propre.
+ 3) Elle retourne : Rien à valider, la copie de travail est propre et Votre branche est à jour avec origin/main.
  
-6) Je n'ai pas réussi a le push.
+6) Lors du push, notre fichier est intégré dans le git.
  
+ new token : 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
