@@ -1,0 +1,46 @@
+2) un Dépôt Git vide a été initialisé dans /home/pltguest/.git/
+
+5) toujours aucun commit mais fichier modifiable
+
+7) il y a maintenant un commit
+
+8) commit 5f88c0a68708abcceb5979eb0723b70546e371b6 (HEAD -> master)
+Author: EnkiMartin <enki.mrt@gmail.com>
+Date:   Mon Nov 20 14:39:29 2023 +0100
+
+    Un superMessage
+
+diff --git a/votrefichier b/votrefichier
+new file mode 100644
+index 0000000..9daeafb
+--- /dev/null
++++ b/votrefichier
+@@ -0,0 +1 @@
++test
+
+nous montre les commit
+
+9) nous montre les dernières modifs du fichier
+
+11) je trouve les fichiers ajoutés
+
+Exercice 2
+
+1) Un répertoire OPI23-EI3 comportant un fichier eleves et
+RÉADMETS.md A l’intérieur de "eleves" il y a les groupe de TP de « A » à « F ».
+2) git status : renvoie les valeurs que je peux push
+11) Cela ne fonctionne pas car le fichier du voisin a été modifié
+
+Exercice 3
+
+1) Je dois ajouter & en fin de commande
+2) Il s'appelle ‘/‘
+3) « cd.. » permet de retourner à la racine du compte
+4) Elle permet d'afficher tous les fichiers de l'utilisateur
+5) cp ../TP1/ex2.c ../..Images/IMG216.jpg .
+6) Ajouter le chemin du répertoire qui contient a.out dans la variable PATH.
+7) Elle renvoie 1 comme il n'y a qu'une seule ligne
+8) La meilleure façon serait de rediriger les erreurs vers un autre fichier ou tout simplement de les supprimer.
+9) Elle renvoie le nombre de processus qui ont dans leurs informations le mot "evince"
+10) chmod g+r,g+w file1
+11) Elle renvoie les infos des gens non-inscrits, donc qui ont "non" dans la colonne.
