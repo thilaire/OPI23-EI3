@@ -1,0 +1,94 @@
+
+///////////////////////////////Exercice 1°)////////////////////////////////////// 
+
+            tocken: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
+https://github.com/SchaafR/TP1-rendu-final-
+question 4°)
+
+git status me donne le statut du dossier git pour l'instant rien à signaler 
+
+question 5°)
+
+le fichier que je viens de créer a été ajouté à liste des fichiers à commit mais il est en stand-by 
+
+question 6°)
+
+mon repertoir git vient d'etre mis à jour et le nouveau fichier que je viens de créer vient d'y etre ajouté
+
+question 7°)
+
+git diff affiche dans le terminal la derniere modification apportée à mon fichier 
+
+
+question 11°)
+
+il n'y a qu'un seul repertoire pour le moment celui que je viens de créer
+
+//////////////////////////////////Exercice 3//////////////////////////////////::
+
+question 1)°
+
+on lance un programme en arriere plan avec "&" si on vient d'ouvrir le programme. Si le programme est deja lancé on "CTRL+Z" pour le passer en arriere plan 
+
+question 2°)
+
+le repertoire racine est le repertoire "HOME"
+
+question 3°)
+
+on retourne à la racine du compte avec "cd"
+
+question 4°)
+
+si je tappe "ls ˜/*" dans le terminal je vais faire afficher 
+
+HOME/readme.txt
+
+HOME/Documents:
+TP
+
+HOME/Bureau:
+
+HOME/Images:
+IMG216.jpg IMG317.JPG
+
+QUESTION 5°)
+
+cp HOME/Documents/TP/TP1 ex2.c HOME/Document/TP/TP2
+cp HOME/Images IMG216.jpg HOME/Document/TP/TP2
+
+question 6°)
+
+reponse A je dois ajouter le chemin du repertoir qui contient a.out dans la variable PATH
+
+question 7°)
+
+la commande va m'afficher le nombre de nouvelle lignes. Dans ce cas 1
+
+question 8°)
+
+> /dev/null 
+
+question 9°)
+
+ avec ps -ef | grep -c evince 
+
+je vais chercher parmi tous les processus, le processus qui se nomme "evince". Si le terminal me renvoie un 1 alors le process est en cours d'execution.
+
+
+qestion 10°)
+
+chmod g+r,g+w file1 donne les droits en lecture et en ecriture au groupe "panda"
+
+question 11°)
+
+avec la commande cut -f1,5...| grep Non je vais obtenir le numero des non-inscrits 
+2334931
+3290176
+4035745
+4210027
+3673118
+
+
+
+
