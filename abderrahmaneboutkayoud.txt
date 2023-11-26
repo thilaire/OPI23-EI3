@@ -109,4 +109,9 @@ index e69de29..640545c 100644
 +    --get                 obtenir la valeur : nom [regex-de-valeur]
 +    --get-all             obtenir toutes les valeurs : clé [regex-de-valeur]
 :
+Exercice 2
+
+2)on voit la création du répertoire EX2
+6) Push sert à envoyer les modifications locales (commits)
+11) 
 
