@@ -1,0 +1,44 @@
+Exercice 1 :
+2) Un répertoire .git a été créé
+4) git status me dit qu'il n'y a aucun commit pour l'instant.On me dit que j'ai 1 untracked file, et me suggère de "git add" mon fichier
+5) Toujours pas de commit, Changement à être commit : mon nouveau fichier
+7) Le répertoire est commité, la liste des fichiers modifiés depuis le dernier commit s'affiche.
+8) git log -p affiche les changements faits lors du dernier commit
+9) git diff affiche les changements faits sur mon fichier depuis le dernier commit
+11) Mon dépôt est vide
+
+Exercice 2 : https://github.com/Polytech-Sorbonne-OPI-2023/TP1-EX2 est inaccessible au moment où je fais cet exercice
+
+Exercice 3 :
+1) Le caractère '&' permet de lancer un programme en arrière plan.
+2) ~ est la racine du compte sous gnu/linux
+3) 'cd', 'cd ~' et 'cd /$HOME' permettent de retourner à la racine du compte.
+4) 
+~/readme.txt
+
+~/Documents:
+TP
+
+~/Bureau:
+
+~/Images:
+IMG216.JPG	IMG317.jpg
+
+5) 
+cp ../TP1/exo2.c ./exo2.c
+cp ~/Images/IMG216.jpg ./IMG216.jpg
+
+6) Ajouter le chemin du répertoire qui contient a.out dans la variable PATH
+7) Cette commande affiche le nombre de nouvelles lignes, ici 1.
+8) commande > /dev/null 2>&1
+9)Cette commande cherche le processus "evince" permis tous les process et revoir son état
+10) chmod g+r,g+w file1
+11)
+2334931
+3290176
+4035745
+4210027
+3673118
+: id des "Non" inscrits
+
+
