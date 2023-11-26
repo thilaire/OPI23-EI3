@@ -1,0 +1,87 @@
+#Exercice 1
+
+2.branches  config  description  HEAD  hooks  index  info  objects  refs
+3. Fichiers: TP1  : git add TP1.txt
+4. git status : 
+	Sur la branche master
+	Aucun commit
+	Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	TP1.txt
+
+5.git add votrefichier
+	sur la branche master
+	Aucun commit
+	Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : TP1.txt
+
+6.J'ai créé un commit sur la branche master avec le message "Un superMessage".
+	Sur la branche master
+	rien à valider, la copie de travail est propre
+
+7. Sur la branche master
+	rien à valider, la copie de travail est propre
+	
+8. Ca montre les détails du commit, y compris l'auteur, la date, le message du commit, et la différence pour le fichier TP1.txt.
+
+9.la sortie de git diff indique que j'ai ajouté une ligne contenant "salut Asdjad" au fichier TP1.txt.
+
+10.tokens: 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
+
+11.On voit le fichier commit avec le message 
+
+#Exercice 2:
+Lien: https://github.com/thilaire/OPI23-EI3
+1. git2
+2. OPI23-EI3
+3.Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+rien à valider, la copie de travail est propre
+4.BAKARY.txt
+6.Everything up-to-date
+9.ouvert tarekkali
+11. ! [rejected]        main -> main (fetch first)
+error: impossible de pousser des références vers 'https://github.com/thilaire/OPI23-EI3'
+astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+12.J'ai pull, puis j'ai repousser. 
+13.
+
+#Exercice 3
+Question 1.
+" & "
+
+Question 2.
+Le repertoire racine sous GNU/Linux: répertoire racine du système de fichiers caractérisé par "/"
+
+Question 3.
+cd ~
+
+Question 4.
+L'affichage de la commande ls ˜/* : tous les repertoires de la racine TP4
+
+Question 5.
+cp /TP1/ex2.c(source) /Images/IMG216.jpg (destination)
+
+Question 6.
+Ajouter le chemin du répertoire qui contient a.out dans la variable PATH
+
+Question 7.
+Le resultat de la commande ´ echo ’’OPI c’est utile..’’ | wc -l: "1" (nombre de ligne)
+
+Question 8.
+Rediriger la sortie d'erreur: '2>' vers '/dev/null' pour jeter toutes les eurreurs 
+
+Question 9.
+Avec la commande: 'ps -ef | grep -c evince' : permet de déterminer le nombre de processsus en cours d'éxécution associé à 'evince'
+
+Question 10.
+ chmod g+r,g+w file1
+
+Question 11.
+Il renvoie le numéro(colonne 1)  associé à une personne non inscrite (avec un non à la colonne 5).
