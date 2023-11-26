@@ -1,3 +1,5 @@
+Exercice 1
+
 2) un Dépôt Git vide a été initialisé dans /home/pltguest/.git/
 
 5) toujours aucun commit mais fichier modifiable
