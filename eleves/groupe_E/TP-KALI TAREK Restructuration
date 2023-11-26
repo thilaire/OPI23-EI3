@@ -172,8 +172,55 @@ To https://github.com/Tarekkali/TP1.git
    
 
    
-	Exercice 2:
-
+Exercice 2:
    
+2) Le répertoire est : OPI23-EI3
 
+3) git status : Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+rien à valider, la copie de travail est propre
+
+6) Lors du push, notre fichier est intégré dans le git.
+Everything up-to-date
+
+9) J'ai modifié le fichier de Tarek.M
+
+11) ! [rejected]        main -> main (fetch first)
+error: impossible de pousser des références vers 'https://github.com/thilaire/OPI23-EI3'
+astuce: Les mises à jour ont été rejetées car la branche distante contient du travail que
+astuce: vous n'avez pas en local. Ceci est généralement causé par un autre dépôt poussé
+astuce: vers la même référence. Vous pourriez intégrer d'abord les changements distants
+astuce: (par exemple 'git pull ...') avant de pousser à nouveau.
+astuce: Voir la 'Note à propos des avances rapides' dans 'git push --help' pour plus d'information.
+
+Exercice 3:
+1) Le caractère qui permet de lancer un programme en arrière plan est "&"
+
+2) Le répertoire racine sur Linux est  "/".
+
+3) C'est la commande "cd ~".
+
+4) La commande "ls ~/*" nous affiche tous les répertoires de l'ordinateur et surligne en bleues les repertoires présents dans le répertoire où l'on a éxécuté la commande.
+
+5) La commande est : cp /TP1/ex2.c(source) /Images/IMG216.jpg (destination)
+
+6) Ajouter le chemin du répertoire qui contient a.out dans la variable PATH
+
+7) La commande nous renvoi le nombre de ligne de la chaîne de caracteres.
+
+8) Rediriger la sortie d'erreur: '2>' vers '/dev/null' pour jeter toutes les eurreurs 
+
+9)  La commande "ps -ef | grep -c evince" renverra le nombre de processus en cours d'exécution qui ont "evince" dans leur nom. 
+
+10) La commande a utilisé est : "chmod g+r,g+w file1" .
+
+11) 
+Cette commande permet de trouver si dans notre fichier csv, entre les colonnes 1 à 5, il y a un "Non".
+ Le resultat obtenu est : 3224931 Non
+			3284840 Non
+			4035745 Non
+			4210027 Non
+			3673118 Non
+ 
 
